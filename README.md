@@ -63,6 +63,12 @@ Updates replace the runtime and may bump the source commit. Just re-run
 `./install.py <ide-folder>`. No-patch fallback meanwhile: paste with
 **Ctrl+Shift+V** (paste as plain text).
 
+## Upstream fix
+
+A proper fix for the JetBrains Runtime itself (detect Exo natively from its
+`zcr_*` Wayland interfaces and skip UTF-16 only there) is drafted in
+[`upstream/`](upstream/) — patch, PR text, and JBR-7721 comment.
+
 ## Requirements
 
 `python3`, the IDE's bundled `jbr/bin/javac`, and internet access at install time.
